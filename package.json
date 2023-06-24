@@ -1,0 +1,19 @@
+{
+  "name": "google-cloud-functions-typescript-yarn",
+  "packageManager": "yarn@3.6.0",
+  "main": "lib/index.js",
+  "engines": {
+    "yarn": "^3.6.0"
+  },
+  "scripts": {
+    "gcp-build": "tsc",
+    "start": "functions-framework --target hello --port 8081",
+    "tsconfig": "tsc --init"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
