@@ -14,3 +14,4 @@ gcloud functions deploy hello \
     --trigger-http \
     --allow-unauthenticated
 ```
+Here is a [link to a post with a complete explanation and video](https://www.koehler.ca/2023/06/23/google-cloud-functions-with-typescript-and-yarn).
